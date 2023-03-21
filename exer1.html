@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fit/style.css">
+    <title>Sistema Fit</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="cur.html">Currículo</a></li>
+       <li><a href="port.html">Portifólio</a></li> 
+       <li><a href="exer2.html">Folha de pagamento</a></li>
+       <li><a href="exemplo.html">Calculadora científica</a></li> 
+       <li><a href="carrinho.html">Carrinho de Compras</a></li>
+       <li><a href="calculadora.html">Calculadora Final</a></li>
+       </ul>
+</header>
+
+<div class="formulario">
+    <div class="titulo2"><h1></h1></div>
+    
+    <br><br>
+    
+    <form id="formulario" action="#" method="post">
+        <input type="text" name="nome" id="nome" placeholder="Nome completo">
+        
+        <br><br>
+        
+        <input type="radio" name="sexo" id="grupo1" class="sexo" value="Masculino" checked>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="sexo" id="grupo2" class="sexo" value="Feminino">
+        <label for="Feminino">Feminino</label>
+         
+        <br><br>
+        
+        <label for="dataNasc">Data de nascimento:</label>
+        <input type="date" name="dataNasc" id="dataNasc">
+        
+        <br><br>
+
+        <input type="number" name="altura" id="altura" placeholder="Altura">
+
+        <br><br>
+
+        <input type="number" name="peso" id="peso" placeholder="Peso">
+
+        <br><br>
+       
+        <input type="button" name="verificar" id="verificar" value="Verificar">
+        <input type="button" name="limpar" id="limpar" value="Limpar">
+        <input type="button" name="voltar" id="voltar" value="Voltar">
+        
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <h2>Resultado</h2>
+    <p>Resultado do conteudo</p>
+    <span class="close">&times;</span>
+  </div>
+
+</div>
+    </form>
+</div>
+<br><br>
+
+<div class="box">
+
+<footer>
+    <h3>Sistema Fit - 2023 ®</h3>
+    <h3>Todos os direitos reservados.</h3>
+    <h3>Por Davi de Oliveira.</h3>
+</footer>
+</div>
+
+
+<script src="Js/script.Js"></script>
+</body>
+</html>

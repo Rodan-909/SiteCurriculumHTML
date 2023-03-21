@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc/style.css">
+    <title>Calculadora científica</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="cur.html">Currículo</a></li>
+       <li><a href="port.html">Portifólio</a></li>
+       <li><a href="exer1.html">Sistema Fit</a></li> 
+       <li><a href="exer2.html">Folha de pagamento</a></li> 
+       <li><a href="carrinho.html">Carrinho de Compras</a></li>
+       <li><a href="calculadora.html">Calculadora Final</a></li>
+       </ul>
+</header>
+<br><br>
+
+    <h1>Calculadora científica</h1>
+
+<br><br>
+    
+    <form name="f1">
+        
+        <input type="text" name="val1" >
+        <input type="button" value="c" onclick="this.form.val1.value='';
+        this.form.val2.value='' ">
+        <br><br>
+        <input type="button" value="cos(x)" onclick="cos()">
+        <input type="button" value="sin(x)" onclick="sin()">
+        <input type="button" value="tan(x)" onclick="tan()">
+        <input type="button" value="sqrt(x)" onclick="sqrt()">
+        <input type="button" value="ln(x)" onclick="ln()">
+        <input type="button" value="exp(x)" onclick="exp()" onmousemove="exp()" onmouseout="document.f1.val1.value=''"><br><br>
+        <input type="text" name="val2" > 
+      </form>
+      <br><br>
+      <p>------------------------------------------------------------------</p>
+      <br><br>
+      
+
+      <br><br>
+      <div class="box">
+
+        <footer>
+            <h3>Sistema Fit - 2023 ®</h3>
+            <h3>Todos os direitos reservados.</h3>
+            <h3>Por Davi de Oliveira.</h3>
+        </footer>
+        </div>
+      <script src="js/calc.js"></script>
+</body>
+</html>

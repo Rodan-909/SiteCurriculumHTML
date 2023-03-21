@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pag/style.css">
+    <title>Folha de pagamento</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="cur.html">Currículo</a></li>
+       <li><a href="port.html">Portifólio</a></li>
+       <li><a href="exer1.html">Sistema Fit</a></li>
+       <li><a href="exemplo.html">Calculadora científica</a></li>
+       <li><a href="carrinho.html">Carrinho de Compras</a></li>
+       <li><a href="calculadora.html">Calculadora Final</a></li>
+       </ul>
+</header>
+      <div class="formulario">
+         <div class="titulo"><h1>Folha de Pagamento</h1></div>
+         <br>
+         
+         <p>----------------------------------------------------------------------</p>
+
+         <br><br>
+
+         <form action="#" id="formulario" method="post">
+            
+            <input type="text" name="nome" id="nome" placeholder="Nome completo">
+
+            <br><br>
+
+            <input type="number" name="horasTrabalho" id="horas" placeholder="Nº de horas de trabalho">
+
+            <br><br>
+
+            <input type="number" name="valorHora" id="valor" placeholder="Valor da Hora">
+
+            <br><br>
+
+            <input type="number" name="nFilhos" id="nFilhos" placeholder="Nº de filhos < de 12 anos">
+            
+            <br><br>
+             
+            <div class="botao">
+            <input type="button" name="gerarFolha" id="gerar" value="Gerar Folha" >
+            </div>
+            
+
+            <br>
+
+            <p>----------------------------------------------------------------------</p>
+
+            <br>
+
+            <h2>Resultado da Folha</h2>
+            <br><br>
+
+            <div class="bruto">
+           <input type="text" placeholder="Salário Bruto">
+           </div>
+
+           <br><br>
+
+           <div class="inss">
+           <input type="text" placeholder="INSS">
+           </div>
+
+           <br><br>
+
+           <div class="ir">
+           <input type="text" placeholder="IR">
+           </div>
+
+           <br><br>
+
+           <div class="familia">
+           <input type="text" placeholder="Salário Família">
+           </div>
+
+           <br><br>
+
+           <div class="liquido">
+           <input type="text" placeholder="Salário Liquido">
+           </div>
+
+           <br><br>
+           
+     
+         </form>
+      </div> 
+
+      <script src="Js/folha.Js"></script>
+</body>
+</html>

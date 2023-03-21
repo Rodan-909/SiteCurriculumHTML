@@ -1,0 +1,112 @@
+*{
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100vh;
+    align-items: center;
+    background-image: url('../img/background01.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+}
+.titulo{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+    
+}
+.box{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+}
+.curriculo{
+    text-align: center;
+    display: flex;
+    
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu li a{
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: large;
+}
+.menu li a:hover{
+    color: white;
+    display: block;
+    text-decoration: none;
+    background-color: red;
+}
+.box p{
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+.formulario{
+    margin-top: 100px;
+    border-style: double;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

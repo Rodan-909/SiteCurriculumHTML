@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrinho/style.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cur.html">Currículo</a></li>
+            <li><a href="port.html">Portifólio</a></li>
+            <li><a href="exer1.html">Sistema Fit</a></li>
+            <li><a href="exer2.html">Folha de pagamento</a></li>
+            <li><a href="exemplo.html">Calculadora científica</a></li>
+            <li><a href="calculadora.html">Calculadora Final</a></li>
+        </ul>
+        
+       <div class="titulo" align="center">
+        <h1>Carrinho de compras</h1>
+       </div>
+       <br><br>
+
+       <div align="center">
+        Sabão <strong>R$ 2,00</strong><br>
+        qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+        <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Sabão', document.getElementById('qtd1').value, '2.00', 1)"> Comprar </button>
+      </div>
+      
+      <div align="center">
+        <br>Macarrão <strong>R$ 3,90</strong><br>
+        qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+        <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Macarrão', document.getElementById('qtd2').value, '3.90', 2)"> Comprar </button>
+      </div>
+      
+      <div align="center">
+        <br>Feijão <strong>R$ 11,90</strong><br>
+        qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+        <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Feijão', document.getElementById('qtd3').value, '11.90', 3)"> Comprar </button>
+      </div>
+      
+      <p align="center">
+        <a href="carrinho2.html"> Ver Carrinho de compras </a>
+      </p>	
+
+      <br><br>
+
+      <script src="Js/carrinho.Js"></script>
+
+</body>
+</html>
